@@ -21,22 +21,16 @@ const Header = ({ siteTitle }) => (
           }
       `}
     >
-      <h1 
+    <Link
+        to="/"
         css={css`
-            color : #fff;
+            color: #fff;
             text-align : center;
-        `}
-      >
-        <Link
-          to="/"
-          css={css`
-            color: black;
             text-decoration: none;
-          `}
+        `}
         >
-          {siteTitle}
+          <h1>{siteTitle}</h1>
         </Link>
-      </h1>
       <Navegacion />
     </div>
   </header>
