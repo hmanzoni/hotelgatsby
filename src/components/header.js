@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 import { css } from "@emotion/core"
 import Navegacion from './nav'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ title }) => (
   <header 
     css={css`
-        background-color : #333;
+        background-color : rgb(44, 62, 80);
         padding : 1rem;
     `}
   >
@@ -29,15 +29,11 @@ const Header = ({ siteTitle }) => (
             text-decoration: none;
         `}
         >
-          <h1>{siteTitle}</h1>
+          <h1>{title}</h1>
         </Link>
       <Navegacion />
     </div>
   </header>
 )
-
-Header.defaultProps = {
-  siteTitle: `Test`,
-}
 
 export default Header
