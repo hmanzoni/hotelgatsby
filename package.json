@@ -7,7 +7,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
-    "gatsby": "^2.18.12",
+    "gatsby": "^5.15.0",
     "gatsby-background-image": "^0.9.12",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-emotion": "^4.1.21",
@@ -15,7 +15,7 @@
     "gatsby-plugin-offline": "^3.0.27",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-sharp": "^4.25.1",
-    "gatsby-source-datocms": "^2.1.22",
+    "gatsby-source-datocms": "^2.6.18",
     "gatsby-source-filesystem": "^2.1.40",
     "gatsby-transformer-sharp": "^2.3.7",
     "prop-types": "^15.7.2",
